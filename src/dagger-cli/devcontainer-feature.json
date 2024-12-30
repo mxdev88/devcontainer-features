@@ -1,0 +1,19 @@
+{
+    "name": "Dagger CLI",
+    "id": "dagger-cli",
+    "version": "1.0.0",
+    "description": "Dagger is a programable CI/CD platform.",
+    "options": {
+		"version": {
+			"type": "string",
+			"proposals": [
+				"latest"
+			],
+			"default": "latest",
+			"description": "Select version of Dagger CLI."
+		}
+	},
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
