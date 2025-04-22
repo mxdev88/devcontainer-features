@@ -11,3 +11,4 @@ This repository is based on the [the `devcontainers/features` repository](https:
 ## Contents
 
 - dagger-cli
+- ta-lib

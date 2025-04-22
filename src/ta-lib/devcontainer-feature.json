@@ -1,0 +1,19 @@
+{
+    "name": "TA-Lib",
+    "id": "ta-lib",
+    "version": "1.0.0",
+    "description": "TA-Lib - Technical Analysis Library.",
+    "options": {
+		"version": {
+			"type": "string",
+			"proposals": [
+				"latest"
+			],
+			"default": "latest",
+			"description": "Select version of TA-Lib."
+		}
+	},
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
