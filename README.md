@@ -12,3 +12,4 @@ This repository is based on the [the `devcontainers/features` repository](https:
 
 - dagger-cli
 - ta-lib
+- ibkr-api-gw
